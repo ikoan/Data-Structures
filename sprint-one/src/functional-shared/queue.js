@@ -5,7 +5,7 @@ var Queue = function(){
 
   _.extend(obj, queueMethods);
     
-    obj. length = 0;
+    obj.length = 0;
     obj.storage = {};
     obj.front = 0;
     obj.end = 0;
