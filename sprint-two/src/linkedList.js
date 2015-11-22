@@ -7,7 +7,7 @@ var LinkedList = function(){
     var node = Node(value);
     
     // Do we need to set head
-    if(!list.head){
+    if ( !list.head ){
       list.head = node; 
     }   
 
